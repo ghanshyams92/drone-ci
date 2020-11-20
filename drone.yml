@@ -11,7 +11,7 @@ steps:
     path: /var/run
   environment:
     DOCKER_USER:
-      from_secret: DOCKER_USER
+      from_secret: DOCKER_USER1
     DOCKER_PASSWORD:
       from_secret: DOCKER_PASSWORD
   commands:
